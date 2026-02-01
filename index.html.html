@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Romaric Kouakou - Développeur Web & Mobile Junior spécialisé en création de sites web, applications mobiles et solutions digitales">
+    <meta name="keywords" content="développeur web, développeur mobile, portfolio, flutter, java, php, javascript">
+    <meta name="author" content="KOUAKOU ALLOKO AMON ROMARIC">
+    <title>Romaric Kouakou | Développeur Web & Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="profil">
+            <img src="images/Romaric portfolio.jpeg" alt="Photo de profil de Romaric Kouakou">
+            <h1>KOUAKOU ALLOKO AMON ROMARIC</h1>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="#projets"><i class="fas fa-project-diagram"></i> Projets</a></li>
+            <li><a href="#cv"><i class="fas fa-file-alt"></i> CV</a></li>
+            <li><a href="#propos"><i class="fas fa-user"></i> À Propos</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu Principal -->
+    <main class="contenu">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="animated-title">
+                        <span class="title-line">SALUT,</span>
+                        <span class="title-line">JE SUIS UN</span>
+                        <span class="title-line highlight">DÉVELOPPEUR WEB</span>
+                        <span class="title-line highlight">& MOBILE JUNIOR</span>
+                    </h1>
+                    <p class="hero-description">
+                        Développeur web et mobile junior, j'accompagne particuliers et petites entreprises 
+                        dans leur présence digitale avec des solutions modernes et performantes.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Contactez-moi
+                        </a>
+                        <a href="#projets" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i> Voir mes projets
+                        </a>
+                    </div>
+                    <!-- Tech Stack -->
+                    <div class="tech-stack">
+                        <p>Technologies :</p>
+                        <div class="tech-icons">
+                            <i class="fab fa-html5" title="HTML5"></i>
+                            <i class="fab fa-css3-alt" title="CSS3"></i>
+                            <i class="fab fa-js" title="JavaScript"></i>
+                            <i class="fab fa-php" title="PHP"></i>
+                            <i class="fab fa-java" title="Java"></i>
+                            <i class="fab fa-android" title="Android"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="photo-container">
+                        <img src="images/WhatsApp Image AI.jpeg" alt="Portrait de Romaric Kouakou">
+                        <div class="photo-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Image de présentation -->
+        <section class="presentation-banner">
+            <img src="images/img-portfolio.jpg" alt="Bannière de présentation">
+            <div class="banner-overlay">
+                <h2>Créons ensemble votre projet digital</h2>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section class="section-projets" id="projets">
+            <div class="section-header">
+                <h2 class="section-title">PROJETS RÉALISÉS</h2>
+                <p class="section-subtitle">Découvrez mes dernières réalisations</p>
+            </div>
+
+            <div class="projets-grid">
+                <article class="projet-card">
+                    <div class="projet-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Application de Gestion de Bibliothèque</h3>
+                    <p class="projet-description">
+                        Application Java Swing de gestion de bibliothèque permettant de gérer les livres, 
+                        les adhérents, les emprunts et le nombre d'exemplaires disponibles, avec des règles 
+                        empêchant les emprunts en double.
+                    </p>
+                    <div class="projet-footer">
+                        <span class="projet-date"><i class="far fa-calendar"></i> Décembre 2025</span>
+                        <div class="projet-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Swing</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Formation PHP</h3>
+                    <p class="projet-description">
+                        Projet développé dans le cadre d'une formation approfondie en PHP, incluant 
+                        la création d'applications web dynamiques avec gestion de base de données MySQL 
+                        et implémentation de fonctionnalités CRUD complètes.
+                    </p>
+                    <div class="projet-footer">
+                        <span class="projet-date"><i class="far fa-calendar"></i> Janvier 2026</span>
+                        <div class="projet-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Jeux Éducatif</h3>
+                    <p class="projet-description">
+                        Application éducative interactive permettant l'apprentissage ludique à travers 
+                        des mini-jeux éducatifs adaptés à différents niveaux, avec système de progression 
+                        et de récompenses pour motiver l'apprentissage.
+                    </p>
+                    <div class="projet-footer">
+                        <span class="projet-date"><i class="far fa-calendar"></i> Octobre 2025</span>
+                        <div class="projet-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Application de Gestion de Personnes</h3>
+                    <p class="projet-description">
+                        Application complète permettant de gérer une liste de personnes caractérisées 
+                        par leur CIN, nom, prénom, ville, téléphone et âge, avec fonctionnalités 
+                        d'ajout, modification, suppression et recherche avancée.
+                    </p>
+                    <div class="projet-footer">
+                        <span class="projet-date"><i class="far fa-calendar"></i> Novembre 2025</span>
+                        <div class="projet-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Database</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projet-card">
+                    <div class="projet-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Application Web de Gestion RH</h3>
+                    <p class="projet-description">
+                        Projet collaboratif développé en Java EE avec mes condisciples. J'ai été 
+                        responsable de la conception et de l'implémentation de la base de données, 
+                        garantissant l'intégrité et la performance du système.
+                    </p>
+                    <div class="projet-footer">
+                        <span class="projet-date"><i class="far fa-calendar"></i> Novembre 2025</span>
+                        <div class="projet-tags">
+                            <span class="tag">Java EE</span>
+                            <span class="tag">Database</span>
+                            <span class="tag">Équipe</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section CV -->
+        <section class="section-cv" id="cv">
+            <div class="cv-container">
+                <div class="cv-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <h2>TÉLÉCHARGER MON CV</h2>
+                <p>Découvrez mon parcours complet, mes compétences et mes expériences</p>
+                <a href="fichiers/KOUAKOU Alloko Amon Romaric_cv.pdf" download class="btn btn-cv">
+                    <i class="fas fa-file-pdf"></i> Télécharger le CV
+                </a>
+            </div>
+        </section>
+
+        <!-- Section À Propos -->
+        <section class="section-propos" id="propos">
+            <div class="section-header">
+                <h2 class="section-title">À PROPOS DE MOI</h2>
+                <p class="section-subtitle">Mon parcours et ma vision</p>
+            </div>
+
+            <div class="propos-content">
+                <div class="propos-intro">
+                    <p class="intro-text">
+                        Passionné par les technologies de l'information, je possède un profil hybride unique : 
+                        <strong>Technicien Supérieur en Fibre Optique</strong> et <strong>Développeur Web & Mobile Junior</strong>. 
+                        Cette double compétence me permet d'appréhender les enjeux numériques de manière transverse, 
+                        en faisant le lien entre l'infrastructure réseau et les solutions applicatives.
+                    </p>
+                </div>
+
+                <div class="propos-grid">
+                    <div class="propos-card">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Mon Parcours & Compétences</h3>
+                        <p>
+                            Diplômé d'un <strong>BTS en Réseaux Informatiques et Télécoms</strong> et actuellement 
+                            en <strong>Licence 3 en Développement d'Application et Système d'Information</strong> 
+                            à l'ESATIC, j'allie rigueur technique et créativité numérique.
+                        </p>
+                        <ul class="skills-list">
+                            <li>
+                                <i class="fas fa-network-wired"></i>
+                                <strong>Infrastructure :</strong> Connaissance terrain acquise chez MT-SARL 
+                                (installation et maintenance fibre optique)
+                            </li>
+                            <li>
+                                <i class="fas fa-code"></i>
+                                <strong>Développement :</strong> Apprentissage actif de Flutter, Java, PHP et JavaScript
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="propos-card">
+                        <div class="card-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Ma Vision</h3>
+                        <p>
+                            Bien que je sois au début de mon parcours de développeur, je mise sur ma 
+                            <strong>grande capacité d'adaptation</strong>. Je reste en permanence ouvert aux 
+                            critiques et aux conseils, car je considère chaque retour comme une opportunité 
+                            de progresser vers l'excellence.
+                        </p>
+                    </div>
+
+                    <div class="propos-card">
+                        <div class="card-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Au-delà du Code</h3>
+                        <p>Mon identité professionnelle est forgée par des valeurs humaines fortes :</p>
+                        <ul class="values-list">
+                            <li>
+                                <i class="fas fa-handshake"></i>
+                                <strong>Engagement :</strong> Le scoutisme et le bénévolat m'ont appris 
+                                l'esprit d'équipe et le sens de l'initiative
+                            </li>
+                            <li>
+                                <i class="fas fa-book-reader"></i>
+                                <strong>Apprentissage Continu :</strong> Passionné de lecture, je m'intéresse 
+                                autant à la veille technologique qu'au développement personnel
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="propos-objectif">
+                    <i class="fas fa-bullseye"></i>
+                    <p>
+                        <strong>Mon objectif :</strong> Bâtir des ponts entre le matériel, le logiciel et l'humain 
+                        pour façonner les solutions de demain.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3><i class="fas fa-cogs"></i> Mes Services</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> Création de portfolios professionnels</li>
+                    <li><i class="fas fa-check"></i> Création de sites web vitrines</li>
+                    <li><i class="fas fa-check"></i> Community manager (niveau junior)</li>
+                    <li><i class="fas fa-check"></i> Développement d'applications mobiles simples (Android)</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3><i class="fas fa-address-book"></i> Contacts</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:allokoromarickouakou@gmail.com">allokoromarickouakou@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/2250702915606">+225 0702915606</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3><i class="fas fa-clock"></i> Disponibilités</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Disponible pour missions freelance</li>
+                    <li><i class="fas fa-check-circle"></i> Ouvert aux opportunités de stage</li>
+                    <li><i class="fas fa-check-circle"></i> Collaboration sur projets innovants</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">
+                © 2025 - Copyright: KOUAKOU ALLOKO AMON ROMARIC | Tous droits réservés
+            </p>
+            <button id="scrollTop" class="scroll-top" aria-label="Retour en haut">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Menu Mobile Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Fermer le menu au clic sur un lien
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            });
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar au scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Bouton Scroll to Top
+        const scrollTopBtn = document.getElementById('scrollTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Animations au scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.projet-card, .propos-card, .section-header').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
